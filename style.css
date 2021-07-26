@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Verdana, sans-serif;
+}
+body{
+    background-color: #d4e6e0;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.left-section{
+    padding: 4rem 1rem; 
+    grid-column: span 3;
+    height: 100%;
+    background-color: rgb(102, 102, 102);
+}
+
+.right-section{
+    padding: 1rem 1rem; 
+    grid-column: span 6;
+    height: 100%;
+    background-color: rgb(73, 114, 114);
+}
+
+.profile{
+    width: 100%;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid rgb(46, 73, 73);
+}
+
+.name{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+.main-title{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.contact-info{
+    width: 100%;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.english{
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 4rem 0;
+    line-height: 1.5;
+}
+.heading{
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
+    padding: 1rem 0;
+    border-bottom: 1px solid #d4e6e0 ;
+    line-height: 1.5;
+    display: flex;
+    align-items:center;
+    color: blanchedalmond;
+}
+
+.text{
+    width: 100%;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0.5rem 0;
+    line-height: 1.5;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+       
+}
